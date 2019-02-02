@@ -20,9 +20,14 @@
         android:shortcutShortLabel="@string/add_new_website_short"
         android:shortcutLongLabel="@string/add_new_website"
         >
+        <!--
+            android:targetPackage actually refers to the applicationId in app/build.gradle.
+            This is intentionally left different from the Main class's package in order to
+            highlight the difference.
+        -->
         <intent
-            android:action="com.example.android.appshortcuts.ADD_WEBSITE"
-            android:targetPackage="com.example.android.appshortcuts"
+            android:action="com.example.android.shortcutsample.ADD_WEBSITE"
+            android:targetPackage="com.example.android.shortcutsample"
             android:targetClass="com.example.android.appshortcuts.Main"
             />
     </shortcut>
