@@ -89,7 +89,7 @@ public class Main extends ListActivity implements OnClickListener {
 
         final EditText editUri = new EditText(this);
 
-        editUri.setHint("http://www.android.com/");
+        editUri.setHint("https:/developer.android.com/");
         editUri.setInputType(EditorInfo.TYPE_TEXT_VARIATION_URI);
 
         new AlertDialog.Builder(this)
