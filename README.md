@@ -41,7 +41,7 @@ Pre-requisites
 
 - Android SDK 28
 - Android Build Tools v28.0.3
-- Android Gradle plugin v3.3.0
+- Android Gradle plugin v3.3.1
 - Android Support Repository
 
 Screenshots
